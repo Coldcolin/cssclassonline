@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    background-color: black;
+    width: 100%;
+    min-height: 100vh;
+    height: 100vh;
+    max-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section {
+    background-color: white;
+    width: 100%;
+    height: 42%;
+    padding: 10px;
+}
+
+.top{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    gap: 30px;
+}
+
+.bottom{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Poppins", sans-serif;
+
+    h1 {
+        font-size: 70px;
+        color: rgb(12, 12, 83);
+    }
+}
+
+aside {
+    height: 100%;
+    flex: 1;
+    /* background-color: tomato; */
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.leftasidetop {
+   flex: 1;
+   width: 100%;
+   background-color: rgb(126, 26, 26);
+}
+
+.leftasidebottom{
+    flex: 3;
+   width: 100%;
+   display: flex;
+   gap: 20px;
+
+   /* div {
+    flex: 1;
+   } */
+}
+
+.bottomleft{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    flex: 1;
+}
+
+.bottomright{
+    background-color: rgb(100, 250, 248);
+    flex: 1;
+}
+
+.lemonbox{
+    flex: 2;
+    width: 100%;
+    background-color: rgb(182, 245, 175);
+}
+
+.pinkbox{
+    flex: 1;
+    width: 100%;
+    background-color: pink;
+}
+
+.rightasidebottom{
+    flex: 1;
+    width: 100%;
+    background-color: rgb(126, 26, 26);
+}
+
+.rightasidetop{
+    flex: 2;
+    width: 100%;
+    display: flex;
+    gap: 20px;
+}
+
+.rightleft{
+    flex: 1;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.rightright{
+    flex: 1;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.rightlefttop{
+    flex: 2;
+    background-color: rgb(246, 246, 163);
+}
+.rightleftcenter{
+    flex: 1;
+    background-color: aqua;
+}
+.rightleftbottom{
+    flex: 2;
+    background-color: gold;
+}
+
+.rightrighttop{
+    flex: 2;
+    background-color: aqua;
+}
+.rightrightcenter{
+    flex: 1.5;
+    background-color: gold;
+}
+.rightrightbottom{
+    flex: 1;
+    background-color: rgb(246, 246, 163);
+}
